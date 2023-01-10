@@ -1,13 +1,13 @@
-export default function Home() {
+export default function Blog() {
 	return (
 		<div>
-			On the main page
+			On the blog page
 		</div>
 	)
 }
 
 export async function getServerSideProps() {
-	console.log('getServerSideProps ran on /')
+	console.log('getServerSideProps ran on /blog')
 
 	return {
 		props: {},
